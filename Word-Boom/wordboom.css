@@ -1,0 +1,77 @@
+
+.nav
+{
+    width: 100%;
+    height: 80px;
+    background-color:#20002c;
+}
+
+.nav h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 18px;
+    color: #007991;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body
+{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button
+{
+    background-color: #FF7373;
+  box-shadow: 0px 5px 0px 0px #CE4646;
+}
+
+.card
+{
+    background-color: #424242;
+}
+
+.row
+{
+    margin-top: 10px;
+}
+
+ul li
+{
+    font-size: 20px;
+}
+
+
+
+/*Some Default styling required*/
+#startGameBtn, #stopGameBtn 
+    {
+        font-size: 2em;
+    }
+
+.icon-background 
+    {
+        color: #6c757d;
+    }
+
+#startGameBtn, #stopGameBtn 
+    {
+        cursor: pointer;
+    }
+
+.icon-background2 
+    {
+        color: #e42828;
+    }
+
+input ,select
+{
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/icon.png">
+    <title>WordSplash : Test your typing speed.</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="wordsplash.css">
+</head>
+
+<body>
+    <header class="nav">
+        <h1>TypeDash</h1>
+    </header>
+    <div class="wrapper">
+        <p>Type as many words as you can until time runs out!</p>
+        <button>START</button>
+        <div class="outerWrap">
+            <div class="scoreWrap">
+                <p>Score</p>
+                <span class="score">0</span>
+            </div>
+            <div class="timeWrap">
+                <p>Time left</p>
+                <span class="time">60</span>
+            </div>
+        </div>
+        <div class="wordsWrap">
+            <p class="words"></p>
+        </div>
+    </div>
+    <p>
+        <button class="btn btn-center" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Instructions
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <ul>
+                <li>To start the game just press the button START</li>
+                <li>You have 60 seconds to type as much words as you can</li>
+                <li>You get 1 point for typing one word correctly</li>
+                <li>As soon as you press START, simply type after that</li>
+                <li>After time is up. You will be able to see your final score</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="wordsplash.js"></script>
+</body>
+
+</html>
